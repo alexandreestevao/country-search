@@ -127,6 +127,7 @@ Teste de tratamento de exceções
 Testes End-to-End (caso frontend fosse implementado)
 
 ▶️ Como Executar o Projeto
+
 1️⃣ Clonar o repositório
 git clone <url-do-repositorio>
 
@@ -136,22 +137,9 @@ mvn clean spring-boot:run
 3️⃣ Executar testes
 mvn test
 
-📦 Estrutura do Projeto
+<img width="292" height="306" alt="image" src="https://github.com/user-attachments/assets/94c3d98d-caa0-4cf7-8e37-9ba384e251d6" />
 
-country-search
-│
-├── controller
-│   └── CountryController
-│
-├── service
-│   └── CountryService
-│
-├── config
-│   └── RestConfig
-│
-└── test
-    ├── CountryServiceTest
-    └── CountryControllerTest
+
 
 
 🎯 Estratégia Adotada
@@ -159,13 +147,9 @@ country-search
 Dado o tempo limitado (1 hora), a estratégia foi:
 
 Priorizar backend funcional e testado
-
 Separação clara de responsabilidades
-
 Uso adequado de API externa
-
 Implementação de testes automatizados
-
 Código limpo e organizado
 
 A implementação do frontend seria simples utilizando Angular ou HTML/JS consumindo os endpoints expostos.
@@ -175,21 +159,14 @@ A implementação do frontend seria simples utilizando Angular ou HTML/JS consum
 O backend foi implementado com sucesso, atendendo todos os requisitos técnicos do desafio:
 
 ✔ Consumo de API externa
-
 ✔ Exposição de endpoints REST
-
 ✔ Separação em camadas
-
 ✔ Testes automatizados
-
 ✔ Tratamento básico de erros
 
 O projeto demonstra capacidade de:
 
 Integração com APIs externas
-
 Estruturação de aplicação Spring Boot
-
 Escrita de testes automatizados
-
 Organização e clareza de código
