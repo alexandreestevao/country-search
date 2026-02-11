@@ -137,6 +137,7 @@ mvn clean spring-boot:run
 mvn test
 
 📦 Estrutura do Projeto
+
 country-search
 │
 ├── controller
@@ -152,14 +153,19 @@ country-search
     ├── CountryServiceTest
     └── CountryControllerTest
 
+
 🎯 Estratégia Adotada
 
 Dado o tempo limitado (1 hora), a estratégia foi:
 
 Priorizar backend funcional e testado
+
 Separação clara de responsabilidades
+
 Uso adequado de API externa
+
 Implementação de testes automatizados
+
 Código limpo e organizado
 
 A implementação do frontend seria simples utilizando Angular ou HTML/JS consumindo os endpoints expostos.
@@ -169,14 +175,21 @@ A implementação do frontend seria simples utilizando Angular ou HTML/JS consum
 O backend foi implementado com sucesso, atendendo todos os requisitos técnicos do desafio:
 
 ✔ Consumo de API externa
+
 ✔ Exposição de endpoints REST
+
 ✔ Separação em camadas
+
 ✔ Testes automatizados
+
 ✔ Tratamento básico de erros
 
 O projeto demonstra capacidade de:
 
 Integração com APIs externas
+
 Estruturação de aplicação Spring Boot
+
 Escrita de testes automatizados
+
 Organização e clareza de código
